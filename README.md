@@ -197,31 +197,29 @@ npm start
 # Navigate to api directory
 cd api
 ```
-Setup the enviornment file
-Add the following in a .env file
-```
-# Groq Configuration API Key
-GROQ_API_KEY= 'add your key here'
+  Setup the enviornment file
+  Add the following in a .env file
+   ```
+   # Groq Configuration API Key
+   GROQ_API_KEY= 'add your key here'
 
-# Google Configuration API Key
-GOOGLE_API_KEY= 'add your key here'
-
-# Google Vision Configuration API Key
-GOOGLE_APPLICATION_CREDENTIALS= 'add path to your vision secret jey json file'
-
-# MongoDB Configuration API Key
-MONGO_URI= 'add your key here'
-```
-Now start the docker Daemon and run 
-```
-docker compose up --build
-```
+  # Google Configuration API Key
+  GOOGLE_API_KEY= 'add your key here'
+  
+  # Google Vision Configuration API Key
+  GOOGLE_APPLICATION_CREDENTIALS= 'add path to your vision secret jey json file'
+  
+  # MongoDB Configuration API Key
+  MONGO_URI= 'add your key here'
+  
+  ```
+  Now start the docker Daemon and run 
+  ```
+  docker compose up --build
+  ```
 
 ## Contributing
 Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
-
-## License
-This project is licensed under [Specify License] - see the LICENSE file for details.
 
 ## Future Enhancements
 - Enhanced security with TLS Encryption, WAF
@@ -229,56 +227,4 @@ This project is licensed under [Specify License] - see the LICENSE file for deta
 - Microservice architecture development
 - Expanded data storage and management capabilities
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
