@@ -170,8 +170,8 @@ aicte-approval-system/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AyushKatochh/Portal-Automation
-   cd portal-automation
+   git clone https://github.com/AyonSOMADDAR/AICTE_Portal_Automation.git
+   cd AICTE_Portal_Automation
    ```
    
 2. Install dependencies:
