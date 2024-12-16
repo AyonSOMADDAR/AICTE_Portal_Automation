@@ -146,7 +146,7 @@ aicte-approval-system/
 - Python 3.8+
 - npm (v8+)
 
-# Frontend Installations
+### Frontend Installations
 
 1. Institute Frontend Setup
 ```
