@@ -212,9 +212,8 @@ npm start
     # MongoDB Configuration API Key
       MONGO_URI= 'add your key here'
   
-  ```
-  Now start the docker Daemon and run 
-  ```
+
+  # Now start the docker Daemon and run 
   docker compose up --build
   ```
 
