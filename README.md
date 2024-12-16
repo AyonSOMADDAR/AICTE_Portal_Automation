@@ -8,7 +8,7 @@ For a detailed architectural overview, please refer to our
 ![Project Architecture Diagram](Diagrams/SIH.gif)
 
 Also , here is a detailed Point Of View with respect to the Admin Members and New Institutes
-[Admin POV](Diagrams/AdminPOV.gif) | [New Institute POV](Diagrams/NewInstitutePOV.gif)
+![Admin POV](Diagrams/AdminPOV.gif) | ![New Institute POV](Diagrams/NewInstitutePOV.gif)
 
 
 ## Repository Structure
