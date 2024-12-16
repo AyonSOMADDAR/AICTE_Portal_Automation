@@ -230,6 +230,10 @@ npm start
   docker compose up --build
   ```
 
+## Our Team
+![](Diagrams/Team-9Pointers.jpeg)
+[Aftaab | Harsh | Ayon | Gaurav | Ayush | Anushka](Diagrams/Team-9Pointers.jpeg)
+
 ## Contributing
 Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
 
