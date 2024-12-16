@@ -1,7 +1,29 @@
-# AICTE Approval System - Saarthi
+# AICTE Approval System
 
-## Project Overview
-Saarthi (Structured Advanced Real-time Tracking and Helping Intelligence) is an AI-driven approval system for AICTE applications, aimed at transforming the institutional approval process with transparency, efficiency, and intelligence.
+## 🚀 Project Overview
+An AI-driven system to transform the AICTE institutional approval process, developed by Team 9POINTERS to address critical challenges in institutional submissions and evaluations.
+
+##📌 Problem Statement
+The current AICTE approval process suffers from multiple inefficiencies:
+- Delays in manual validation of institutional submissions
+- Inefficient document verification
+- Inequitable evaluator allocation
+- Limited infrastructure compliance validation
+- Poor communication and transparency
+
+## Key Features
+- AI-based document verification
+- Intelligent task scheduling
+- Real-time application status tracking
+- Comprehensive infrastructure compliance monitoring
+- Secure authentication with facial recognition
+
+## Technical Stack
+- **Frontend**: React.js, React Native
+- **Backend**: Node.js with Express, Python (FastAPI)
+- **Database**: MongoDB, AWS S3
+- **AI & Analytics**: TensorFlow, Large Language Models, NLP, Tesseract OCR
+- **Security**: Role-Based Access Control, JWT, OpenCV
 
 ## Architectural Plan
 For a detailed architectural overview, please refer to our Architectural Plan
@@ -128,20 +150,6 @@ aicte-approval-system/
 └── README.md
 
 ```
-
-## Key Features
-- AI-based document verification
-- Intelligent task scheduling
-- Real-time application status tracking
-- Comprehensive infrastructure compliance monitoring
-- Secure authentication with facial recognition
-
-## Technical Stack
-- **Frontend**: React.js, React Native
-- **Backend**: Node.js with Express, Python (FastAPI)
-- **Database**: MongoDB, AWS S3
-- **AI & Analytics**: TensorFlow, Large Language Models, NLP, Tesseract OCR
-- **Security**: Role-Based Access Control, JWT, OpenCV
 
 ## Setup and Installation
 
