@@ -3,7 +3,7 @@
 ## 🚀 Project Overview
 An AI-driven system to transform the AICTE institutional approval process, developed by Team 9POINTERS to address critical challenges in institutional submissions and evaluations.
 
-##📌 Problem Statement
+## 📌 Problem Statement
 The current AICTE approval process suffers from multiple inefficiencies:
 - Delays in manual validation of institutional submissions
 - Inefficient document verification
