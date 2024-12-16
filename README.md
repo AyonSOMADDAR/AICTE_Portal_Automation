@@ -200,17 +200,17 @@ npm start
   # Setup the enviornment file
   # Add the following in  .env file
 
-     # Groq Configuration API Key
-     GROQ_API_KEY= 'add your key here'
+    # Groq Configuration API Key
+      GROQ_API_KEY= 'add your key here'
   
     # Google Configuration API Key
-    GOOGLE_API_KEY= 'add your key here'
+      GOOGLE_API_KEY= 'add your key here'
     
     # Google Vision Configuration API Key
-    GOOGLE_APPLICATION_CREDENTIALS= 'add path to your vision secret jey json file'
+      GOOGLE_APPLICATION_CREDENTIALS= 'add path to your vision secret jey json file'
     
     # MongoDB Configuration API Key
-    MONGO_URI= 'add your key here'
+      MONGO_URI= 'add your key here'
   
   ```
   Now start the docker Daemon and run 
