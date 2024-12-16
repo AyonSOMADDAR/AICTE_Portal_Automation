@@ -4,7 +4,8 @@
 Saarthi (Structured Advanced Real-time Tracking and Helping Intelligence) is an AI-driven approval system for AICTE applications, aimed at transforming the institutional approval process with transparency, efficiency, and intelligence.
 
 ## Architectural Plan
-{}{}{}{}
+(SIH.html)
+{}{}{}
 
 ## Repository Structure
 ```
