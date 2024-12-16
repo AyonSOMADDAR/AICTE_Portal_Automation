@@ -1,7 +1,7 @@
 # AICTE Approval System
 
 ## 🚀 Project Overview
-An AI-driven system to transform the AICTE institutional approval process, developed by Team 9POINTERS to address critical challenges in institutional submissions and evaluations.
+The **Portal Automation** project aims to streamline the document verification process on portals like the AICTE portal. Currently, the process involves manual validation by admin members, which is time-consuming and prone to human error. Our solution leverages **AI** and **OCR (Optical Character Recognition)** technologies to automate this workflow.
 
 ## 📌 Problem Statement
 The current AICTE approval process suffers from multiple inefficiencies:
@@ -11,12 +11,19 @@ The current AICTE approval process suffers from multiple inefficiencies:
 - Limited infrastructure compliance validation
 - Poor communication and transparency
 
-## Key Features
-- AI-based document verification
-- Intelligent task scheduling
-- Real-time application status tracking
-- Comprehensive infrastructure compliance monitoring
-- Secure authentication with facial recognition
+## Proposed Solution
+Our system automates this process by:
+1. **Extracting Keywords**: Using OCR to extract relevant information from uploaded documents.
+2. **Generating Summaries**: AI processes the extracted data to create concise summaries.
+3. **Reporting**: Admin members are presented with reports summarizing key findings and highlighting any discrepancies.
+
+This solution ensures a faster, more accurate, and scalable document verification process.
+
+## Features
+- **AI-Powered OCR**: Extracts text and relevant keywords from scanned documents and images.
+- **Document Validation**: Automatically checks for critical information and flags missing or invalid data.
+- **Summary Reports**: Generates easy-to-read summaries for admin members.
+- **Streamlined Workflow**: Reduces the manual effort required for document review.
 
 ## Technical Stack
 - **Frontend**: React.js, React Native
@@ -161,74 +168,56 @@ aicte-approval-system/
 
 ### Frontend Installations
 
-1. Institute Frontend Setup
-```
-# Navigate to institute frontend directory
-cd InstituteFrontend
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AyushKatochh/Portal-Automation
+   cd portal-automation
+   ```
+   
+2. Install dependencies:
+   ```bash
+   npm install        # For frontend/backend dependencies
+   pip install -r requirements.txt  # For AI/OCR dependencies (if using Python)
+   ```
 
-# Install dependencies
-npm install
+3. Set up the database:
+   - Create a new database in your preferred DBMS.
+   - Run database migrations (instructions depend on the framework used).
 
-# Start development server
-npm start
-```
-2. Admin Frontend Setup
-```
-# Navigate to admin frontend directory
-cd admin
 
-# Install dependencies
-npm install
-
-# Start development server
-npm start
-```
-3. Mobile Setup
-```
-# Navigate to mobile app directory
-cd mobile
-
-# Install dependencies
-npm install
-
-# Start Metro bundler (for React Native)
-npm start
-```
-4. Backend Setup
-```
-# Navigate to backend directory
-cd backend
-
-# Install dependencies
-npm install
-
-# Start development server
-npm start
-``` 
-5. Python API Setup
-  ```
-  # Navigate to api directory
-  cd api
-
-  # Setup the enviornment file
-  # Add the following in  .env file
-
-    # Groq Configuration API Key
-      GROQ_API_KEY= 'add your key here'
-  
-    # Google Configuration API Key
-      GOOGLE_API_KEY= 'add your key here'
+4. Start the application:
+   - Frontend:
+     ```bash
+     npm start
+     ```
+   - Backend:
+     ```bash
+     npm run start-server  
+     ```
+   - Python server
+     ```bash
+      # Navigate to api directory
+      cd api
     
-    # Google Vision Configuration API Key
-      GOOGLE_APPLICATION_CREDENTIALS= 'add path to your vision secret jey json file'
+      # Setup the enviornment file
+      # Add the following in  .env file
     
-    # MongoDB Configuration API Key
-      MONGO_URI= 'add your key here'
-  
-
-  # Now start the docker Daemon and run 
-  docker compose up --build
-  ```
+        # Groq Configuration API Key
+          GROQ_API_KEY= 'add your key here'
+      
+        # Google Configuration API Key
+          GOOGLE_API_KEY= 'add your key here'
+        
+        # Google Vision Configuration API Key
+          GOOGLE_APPLICATION_CREDENTIALS= 'add path to your vision secret jey json file'
+        
+        # MongoDB Configuration API Key
+          MONGO_URI= 'add your key here'
+      
+    
+      # Now start the docker Daemon and run 
+      docker compose up --build
+     ```
 
 ## Our Team
 ![](Diagrams/Team-9Pointers.jpeg)
