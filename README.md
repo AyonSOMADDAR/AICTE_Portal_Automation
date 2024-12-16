@@ -39,6 +39,66 @@ For a detailed architectural overview, please refer to our Architectural Plan
 Also , here is a detailed Point Of View with respect to the Admin Members and New Institutes
 [Admin POV](Diagrams/AdminPOV.gif) | [New Institute POV](Diagrams/NewInstitutePOV.gif)
 
+## Setup and Installation
+
+### Prerequisites
+- Node.js (v16+ recommended)
+- Docker Desktop
+- Python 3.8+
+- npm (v8+)
+
+### Frontend Installations
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AyonSOMADDAR/AICTE_Portal_Automation.git
+   cd AICTE_Portal_Automation
+   ```
+   
+2. Install dependencies:
+   ```bash
+   npm install        # For frontend/backend dependencies
+   pip install -r requirements.txt  # For AI/OCR dependencies (if using Python)
+   ```
+
+3. Set up the database:
+   - Create a new database in your preferred DBMS.
+   - Run database migrations (instructions depend on the framework used).
+
+
+4. Start the application:
+   - Frontend:
+     ```bash
+     npm start
+     ```
+   - Backend:
+     ```bash
+     npm run start-server  
+     ```
+   - Python server
+     ```bash
+      # Navigate to api directory
+      cd api
+    
+      # Setup the enviornment file
+      # Add the following in  .env file
+    
+        # Groq Configuration API Key
+          GROQ_API_KEY= 'add your key here'
+      
+        # Google Configuration API Key
+          GOOGLE_API_KEY= 'add your key here'
+        
+        # Google Vision Configuration API Key
+          GOOGLE_APPLICATION_CREDENTIALS= 'add path to your vision secret jey json file'
+        
+        # MongoDB Configuration API Key
+          MONGO_URI= 'add your key here'
+      
+    
+      # Now start the docker Daemon and run 
+      docker compose up --build
+     ```
 
 ## Repository Structure
 ```
@@ -157,67 +217,6 @@ aicte-approval-system/
 └── README.md
 
 ```
-
-## Setup and Installation
-
-### Prerequisites
-- Node.js (v16+ recommended)
-- Docker Desktop
-- Python 3.8+
-- npm (v8+)
-
-### Frontend Installations
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/AyonSOMADDAR/AICTE_Portal_Automation.git
-   cd AICTE_Portal_Automation
-   ```
-   
-2. Install dependencies:
-   ```bash
-   npm install        # For frontend/backend dependencies
-   pip install -r requirements.txt  # For AI/OCR dependencies (if using Python)
-   ```
-
-3. Set up the database:
-   - Create a new database in your preferred DBMS.
-   - Run database migrations (instructions depend on the framework used).
-
-
-4. Start the application:
-   - Frontend:
-     ```bash
-     npm start
-     ```
-   - Backend:
-     ```bash
-     npm run start-server  
-     ```
-   - Python server
-     ```bash
-      # Navigate to api directory
-      cd api
-    
-      # Setup the enviornment file
-      # Add the following in  .env file
-    
-        # Groq Configuration API Key
-          GROQ_API_KEY= 'add your key here'
-      
-        # Google Configuration API Key
-          GOOGLE_API_KEY= 'add your key here'
-        
-        # Google Vision Configuration API Key
-          GOOGLE_APPLICATION_CREDENTIALS= 'add path to your vision secret jey json file'
-        
-        # MongoDB Configuration API Key
-          MONGO_URI= 'add your key here'
-      
-    
-      # Now start the docker Daemon and run 
-      docker compose up --build
-     ```
 
 ## Our Team
 ![](Diagrams/Team-9Pointers.jpeg)
