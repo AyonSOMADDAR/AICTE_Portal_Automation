@@ -238,5 +238,4 @@ Please read CONTRIBUTING.md for details on our code of conduct and the process f
 - Improved AI validation using NER and AI modeling
 - Microservice architecture development
 - Expanded data storage and management capabilities
-```
 
