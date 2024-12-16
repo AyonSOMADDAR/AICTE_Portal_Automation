@@ -232,7 +232,8 @@ npm start
 
 ## Our Team
 ![](Diagrams/Team-9Pointers.jpeg)
-[Aftaab | Harsh | Ayon | Gaurav | Ayush | Anushka](Diagrams/Team-9Pointers.jpeg)
+![image](https://github.com/user-attachments/assets/763e5e75-c345-4435-ae5c-8415894f3260)
+[Aftaab](https://www.linkedin.com/in/mohammad-aftaab-b49a5624a/) | [Harsh](https://www.linkedin.com/in/hashtagharsh/) | [Ayon](https://www.linkedin.com/in/ayonsomaddar/) | [Gaurav](https://www.linkedin.com/in/gaurav-sanwal-3263b3221/) | [Ayush](https://www.linkedin.com/in/ayush-katoch-00197021a/) | [Anushka](https://www.linkedin.com/in/anushka-gupta-90a660318/)
 
 ## Contributing
 Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
